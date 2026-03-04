@@ -6,7 +6,7 @@ Este projeto é uma Landing Page conceitual para um evento que une **Web Design*
 
 ---
 
-## **Visão Geral**
+## *Visão Geral*
 
 O projeto nasceu da necessidade de criar uma ponte entre o público e o setor cultural no ambiente digital. 
 
