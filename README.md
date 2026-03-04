@@ -6,7 +6,7 @@ Este projeto é uma Landing Page conceitual para um evento que une **Web Design*
 
 ---
 
-## *Visão Geral*
+## *Visão Geral
 
 O projeto nasceu da necessidade de criar uma ponte entre o público e o setor cultural no ambiente digital. 
 
@@ -16,7 +16,7 @@ O projeto nasceu da necessidade de criar uma ponte entre o público e o setor cu
 
 ---
 
-## Tecnologias e Ferramentas
+## *Tecnologias e Ferramentas
 
 Para este protótipo, utilizei:
 
@@ -27,7 +27,7 @@ Para este protótipo, utilizei:
 
 ---
 
-## Decisões de Design (UI/UX)
+## *Decisões de Design (UI/UX)
 
 1.  **Paleta de Cores:** Utilizei o **Roxo (#6c5ce7)** para representar a tecnologia e inovação, contrastando com o **Laranja (#ff9f43)** para trazer a energia e criatividade da produção cultural.
 2.  **Tipografia:** A fonte **Poppins** foi escolhida por sua legibilidade em telas digitais e seu aspecto moderno.
