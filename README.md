@@ -1,84 +1,44 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech-Cultural | Festival de Arte e Design</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+# 🎨 Conexão Digital | Festival de Arte & Design
 
-    <header>
-        <div class="container">
-            <div class="logo">
-                <h1>Tech<span>Cultural</span></h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#palestrantes">Palestrantes</a></li>
-                    <li><a href="#inscricao" class="btn-sm">Inscreva-se</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+> **Projeto de Estudo de Caso: UI/UX e Desenvolvimento Front-end (FIEB)**
 
-    <section id="hero" class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h2>A intersecção entre Código, Arte e Cultura.</h2>
-                <p>Junte-se a nós em um evento único que explora o futuro do Web Design, Arte Digital e Produção Cultural.</p>
-                <a href="#inscricao" class="btn-lg">Saiba Mais</a>
-            </div>
-            <div class="hero-image">
-                <div class="image-box">Arte Digital</div>
-            </div>
-        </div>
-    </section>
+Este projeto é uma Landing Page conceitual para um evento que une **Web Design**, **Arte Digital** e **Produção Cultural**. O objetivo foi aplicar princípios de hierarquia visual, tipografia moderna e responsividade, conectando a estética criativa com a robustez técnica.
 
-    <section id="sobre" class="sobre">
-        <div class="container">
-            <h3>O Evento</h3>
-            <p>O Festival Tech-Cultural é mais do que palestras; é uma imersão na criatividade tecnológica. Projetado por estudantes para criadores, abordaremos temas essenciais do mercado.</p>
-            <div class="grid-features">
-                <div class="feature-item">
-                    <h4>Web Design</h4>
-                    <p>Interfaces que encantam e funcionam.</p>
-                </div>
-                <div class="feature-item">
-                    <h4>Arte Digital</h4>
-                    <p>A nova expressão da cultura pop.</p>
-                </div>
-                <div class="feature-item">
-                    <h4>Produção</h4>
-                    <p>Do conceito à execução cultural.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+---
 
-    <section id="inscricao" class="inscricao">
-        <div class="container">
-            <div class="form-box">
-                <h3>Participe</h3>
-                <p>Vagas limitadas para a edição deste ano.</p>
-                <form>
-                    <input type="text" placeholder="Seu Nome Completo" required>
-                    <input type="email" placeholder="Seu Melhor E-mail" required>
-                    <button type="submit" class="btn-lg">Reservar Minha Vaga</button>
-                </form>
-            </div>
-        </div>
-    </section>
+## 🚀 Visão Geral
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Projeto NAUX by Kauê Araujo. FIEBTECH.</p>
-        </div>
-    </footer>
+O projeto nasceu da necessidade de criar uma ponte entre o público e o setor cultural no ambiente digital. 
 
-</body>
-</html>
+* **Público-alvo:** Artistas, designers e produtores culturais.
+* **Problema:** A falta de interfaces intuitivas que comuniquem a essência de eventos artísticos.
+* **Solução:** Uma interface limpa, com foco em conversão (CTA) e acessibilidade.
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+Para este protótipo, utilizei:
+
+* **Design:** Figma (Prototipagem de alta fidelidade)
+* **Estrutura:** HTML5 Semântico
+* **Estilo:** CSS3 (Flexbox, Grid e Variáveis nativas)
+* **Conceitos:** Mobile First e Design Responsivo
+
+---
+
+## 📐 Decisões de Design (UI/UX)
+
+1.  **Paleta de Cores:** Utilizei o **Roxo (#6c5ce7)** para representar a tecnologia e inovação, contrastando com o **Laranja (#ff9f43)** para trazer a energia e criatividade da produção cultural.
+2.  **Tipografia:** A fonte **Poppins** foi escolhida por sua legibilidade em telas digitais e seu aspecto moderno.
+3.  **UX Writing:** Chamadas diretas (CTAs) como "Reservar Minha Vaga" para guiar o usuário de forma clara.
+
+---
+
+## 📁 Estrutura do Projeto
+
+```text
+.
+├── index.html          # Estrutura principal do site
+├── style.css           # Estilização e responsividade
+└── assets/             # Imagens e ícones (Arte Digital)
