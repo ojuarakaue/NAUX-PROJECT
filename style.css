@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -191,7 +191,7 @@ nav a:not(.btn-sm):hover {
 }
 
 .form-box {
-    max-width: 600px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
 }
@@ -228,7 +228,7 @@ footer p {
 }
 
 /* --- RESPONSIVIDADE BÁSICA --- */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .hero-content, .grid-features {
         grid-template-columns: 1fr; /* Empilha os elementos no mobile */
         text-align: center;
@@ -244,3 +244,4 @@ footer p {
     }
 
 }
+
