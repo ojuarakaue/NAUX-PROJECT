@@ -1,11 +1,11 @@
-/* --- RESET BÁSICO (Para evitar estilos padrão dos navegadores) --- */
+/* --- RESET BÁSICO  --- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* --- VARIÁVEIS DE COR E TIPOGRAFIA (Princípio de UI: Consistência) --- */
+/* --- VARIÁVEIS DE COR E TIPOGRAFIA --- */
 :root {
     --primary-color: #6c5ce7; /* Roxo para tecnologia */
     --secondary-color: #ff9f43; /* Laranja para criatividade */
@@ -53,7 +53,7 @@ p {
     margin-bottom: 1.5rem;
 }
 
-/* --- BOTÕES (UX: Componentes de Ação Claros) --- */
+/* --- BOTÕES  --- */
 .btn-lg, .btn-sm {
     display: inline-block;
     padding: 12px 24px;
@@ -227,7 +227,7 @@ footer p {
     margin-bottom: 0;
 }
 
-/* --- RESPONSIVIDADE BÁSICA (UX: Adaptação a Telas Menores) --- */
+/* --- RESPONSIVIDADE BÁSICA --- */
 @media (max-width: 768px) {
     .hero-content, .grid-features {
         grid-template-columns: 1fr; /* Empilha os elementos no mobile */
@@ -242,4 +242,5 @@ footer p {
         gap: 10px;
         font-size: 0.8rem;
     }
+
 }
