@@ -1,0 +1,245 @@
+/* --- RESET BÁSICO (Para evitar estilos padrão dos navegadores) --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --- VARIÁVEIS DE COR E TIPOGRAFIA (Princípio de UI: Consistência) --- */
+:root {
+    --primary-color: #6c5ce7; /* Roxo para tecnologia */
+    --secondary-color: #ff9f43; /* Laranja para criatividade */
+    --text-dark: #2d3436;
+    --text-light: #f9f9f9;
+    --bg-light: #ffffff;
+    --bg-dark: #1e272e;
+    --font-main: 'Poppins', sans-serif; /* Fonte limpa e moderna */
+}
+
+/* --- ESTILOS GERAIS --- */
+html {
+    scroll-behavior: smooth; /* UX: Rolagem suave entre seções */
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-dark);
+    line-height: 1.6;
+    background-color: var(--bg-light);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+/* --- BOTÕES (UX: Componentes de Ação Claros) --- */
+.btn-lg, .btn-sm {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border-radius: 50px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-sm {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+}
+
+.btn-lg:hover, .btn-sm:hover {
+    background-color: #5a4bcf;
+    transform: translateY(-2px); /* UI: Feedback visual ao pairar */
+}
+
+/* --- CABEÇALHO --- */
+header {
+    background-color: var(--bg-light);
+    padding: 20px 0;
+    position: fixed; /* UX: Menu sempre visível */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.logo span {
+    color: var(--primary-color);
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav a:not(.btn-sm) {
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+nav a:not(.btn-sm):hover {
+    color: var(--primary-color);
+}
+
+/* --- HERO SECTION --- */
+.hero {
+    padding: 140px 0 80px; /* Padding extra no topo por causa do header fixo */
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); /* Fundo suave */
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* UI: Layout em grid */
+    gap: 40px;
+    align-items: center;
+}
+
+.hero-text h2 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+}
+
+.hero-image .image-box {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* --- SEÇÃO SOBRE --- */
+.sobre {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.sobre h3 {
+    font-size: 2.2rem;
+}
+
+.grid-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.feature-item {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+    border-bottom: 4px solid transparent;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    border-color: var(--secondary-color);
+}
+
+.feature-item h4 {
+    color: var(--primary-color);
+}
+
+/* --- SEÇÃO INSCRIÇÃO --- */
+.inscricao {
+    padding: 80px 0;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+}
+
+.form-box {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inscricao h3 {
+    font-size: 2.2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+input {
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    font-family: var(--font-main);
+}
+
+/* --- RODAPÉ --- */
+footer {
+    padding: 30px 0;
+    background-color: #151a1e;
+    color: #a0a0a0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* --- RESPONSIVIDADE BÁSICA (UX: Adaptação a Telas Menores) --- */
+@media (max-width: 768px) {
+    .hero-content, .grid-features {
+        grid-template-columns: 1fr; /* Empilha os elementos no mobile */
+        text-align: center;
+    }
+
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        gap: 10px;
+        font-size: 0.8rem;
+    }
+}
